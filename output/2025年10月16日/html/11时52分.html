@@ -1,0 +1,161 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 500</p><p>生成时间: 2025-10-16 11:52:28</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>linuxdo</li><li>ghxi</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles">[Github] <a href="https://github.com/langchain-ai/langchainjs" target="_blank" class="news-link">langchain-ai / langchainjs</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时52分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E4%B8%BB%E6%8C%81%E4%BA%BA%E6%9D%8E%E6%A2%93%E8%90%8C%E9%81%ADAI%E4%BB%BF%E5%86%92%E5%B8%A6%E8%B4%A7" target="_blank" class="news-link">央视主持人李梓萌遭AI仿冒带货</a> [6] <font color='grey'>- 11时52分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757228" target="_blank" class="news-link">“看，皇帝没穿衣服”！对冲基金经理：万亿美元的AI投入，赚得回来吗？</a> [6] <font color='grey'>- 11时52分</font><br>[Hacker News] <a href="https://news.ycombinator.com/item?id=45594920" target="_blank" class="news-link">Zed is now available on Windows</a> [7] <font color='grey'>- 11时52分</font><br>[Hacker News] <a href="https://news.ycombinator.com/item?id=45598590" target="_blank" class="news-link">Next Steps for the Caddy Project Maintainership</a> [8] <font color='grey'>- 11时52分</font><br>[Hacker News] <a href="https://news.ycombinator.com/item?id=45599727" target="_blank" class="news-link">Writing an LLM from scratch, part 22 – training our LLM</a> [9] <font color='grey'>- 11时52分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1166023" target="_blank" class="news-link">想请教大家是如何利用 AI 进行 code review？</a> [10] <font color='grey'>- 11时52分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1165999" target="_blank" class="news-link">有些大厂已经开始要求新增代码 AI 生成的占比量了</a> [11] <font color='grey'>- 11时52分</font><br>[Github] <a href="https://github.com/DigitalPlatDev/FreeDomain" target="_blank" class="news-link">DigitalPlatDev / FreeDomain</a> [11] <font color='grey'>- 11时52分</font><br>[Github] <a href="https://github.com/alibaba/spring-ai-alibaba" target="_blank" class="news-link">alibaba / spring-ai-alibaba</a> [13] <font color='grey'>- 11时52分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1165965" target="_blank" class="news-link">做了一个免费的 AI 视频生成工具（用闲置 GPU 搭的）</a> [14] <font color='grey'>- 11时52分</font><br>[Github] <a href="https://github.com/dair-ai/Prompt-Engineering-Guide" target="_blank" class="news-link">dair-ai / Prompt-Engineering-Guide</a> [14] <font color='grey'>- 11时52分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1165836" target="_blank" class="news-link">标签页、书签太多找不到？ AI 分组 + 拼音模糊搜索，开源插件秒解切换难题！</a> [15] <font color='grey'>- 11时52分</font><br>[掘金] <a href="https://juejin.cn/post/7559959596472254499" target="_blank" class="news-link">腾讯新发布AI绘画黑科技，8大玩法，手机可用，吊打Nano Banana！（附提示词）</a> [16] <font color='grey'>- 11时52分</font><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31790934" target="_blank" class="news-link">央视主持人李梓萌遭AI仿冒带货！北京查处首例AI虚假广告案</a> [16] <font color='grey'>- 11时52分</font></div><br>[少数派] <a href="https://sspai.com/post/102744" target="_blank" class="news-link">Apple AirPods Pro 3 降噪真无线耳机体验 - TDS REVIEW</a> [18] <font color='grey'>- 11时52分</font><br>[牛客] <a href="https://www.nowcoder.com/discuss/807351522882281472" target="_blank" class="news-link">为什么我说程序员一定会被AI替代</a> [20] <font color='grey'>- 11时52分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1165894" target="_blank" class="news-link">[分享] AI 真的太屌了， 1 天时间用 AI 做的网站，用 AI 自动生成涂色页的网站： ColorMinds.fun</a> [21] <font color='grey'>- 11时52分</font><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45600581" target="_blank" class="news-link">New Alzheimer&#x27;s Treatment Clears Plaques from Brains of Mice Within Hours</a> [23] <font color='grey'>- 11时52分</font></div><br>[V2EX] <a href="https://www.v2ex.com/t/1165883" target="_blank" class="news-link">对话 MoonBit 张宏波：为 AI 重构编程语言</a> [24] <font color='grey'>- 11时52分</font><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45600263" target="_blank" class="news-link">Who&#x27;s Submitting AI-Tainted Filings in Court?</a> [25] <font color='grey'>- 11时52分</font></div><br>[掘金] <a href="https://juejin.cn/post/7560598724012392482" target="_blank" class="news-link">公开一个AI产品的商业逻辑与设计方案——AI带来的涂色卡自由</a> [25] <font color='grey'>- 11时52分</font><br>[Hacker News] <a href="https://news.ycombinator.com/item?id=45512538" target="_blank" class="news-link">The brain navigates new spaces by &#x27;darting&#x27; between reality and mental maps</a> [27] <font color='grey'>- 11时52分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1165766" target="_blank" class="news-link">[Printer AI MCP] 打印机行业相关，写了一个打印机的 MCP 服务，给 AI 提供调用本地打印机功能</a> [29] <font color='grey'>- 11时52分</font><br>[虫部落] <a href="https://www.chongbuluo.com/thread-22699-1-1.html" target="_blank" class="news-link">对 AI 充满好奇心？注册邀请：成为隔壁前 500 位种子用户</a> [29] <font color='grey'>- 11时52分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">24</td>
+                <td class="percentage">4.8%</td>
+                <td class="titles">[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%B0%E5%B0%BC%E5%B0%86%E9%87%87%E8%B4%AD%E4%B8%AD%E5%9B%BD%E6%AD%BC10%E6%88%98%E6%9C%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26realpos%3D2%26pos%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26dgr%3D0%26lcate%3D5001%26cate%3D5001%26band_rank%3D2%26flag%3D1%26q%3D%2523%25E5%258D%25B0%25E5%25B0%25BC%25E5%25B0%2586%25E9%2587%2587%25E8%25B4%25AD%25E4%25B8%25AD%25E5%259B%25BD%25E6%25AD%25BC10%25E6%2588%2598%25E6%259C%25BA%2523%26display_time%3D1760586535%26pre_seqid%3D17605865352050204991143" target="_blank" class="news-link">印尼将采购中国歼10战机</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时52分</font><br><div class='new-title'>🆕 [哔哩哔哩] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E4%BC%9A%E9%A9%B1%E9%80%90%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E5%90%97" target="_blank" class="news-link">美国会驱逐中国留学生吗</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时52分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8nUcdidHrho" target="_blank" class="news-link">美财长不装了：应对中国，必须运用产业政策</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时52分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E4%BC%9A%E9%A9%B1%E9%80%90%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E5%90%97" target="_blank" class="news-link">美国会驱逐中国留学生吗</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时52分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757237" target="_blank" class="news-link">中国9月新增社融3.53万亿元，新增人民币贷款1.29万亿元，M2-M1剪刀差刷新年内低值</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时52分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757247" target="_blank" class="news-link">国产算力芯片龙头海光信息Q3营收、归母净利双双创新高！| 财报见闻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时52分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2170853" target="_blank" class="news-link">中国驻英国使馆发言人就英方制裁中国实体问题答记者问</a> [6] <font color='grey'>- 11时52分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%8A%AF%E7%89%87%E7%A0%94%E5%88%B6%E8%8E%B7%E9%87%8D%E5%A4%A7%E7%AA%81%E7%A0%B4" target="_blank" class="news-link">中国芯片研制获重大突破</a> [7] <font color='grey'>- 11时52分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31784836" target="_blank" class="news-link">菲律宾11月恢复对中国公民电子签证</a> [9] <font color='grey'>- 11时52分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2170833" target="_blank" class="news-link">【数读IPO】12英寸硅片国产龙头今日申购</a> [9] <font color='grey'>- 11时52分</font><br>[抖音] <a href="https://www.douyin.com/hot/2271579" target="_blank" class="news-link">第十四届中国艺术节</a> [10] <font color='grey'>- 11时52分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7561373292163006505/" target="_blank" class="news-link">美威胁停买的中国油或为废弃食用油</a> [10] <font color='grey'>- 11时52分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%B0%E5%B0%BC%E9%98%B2%E9%95%BF%EF%BC%9A%E5%B0%86%E9%87%87%E8%B4%AD%E4%B8%AD%E5%9B%BD%E6%AD%BC-10%E6%88%98%E6%9C%BA" target="_blank" class="news-link">印尼防长：将采购中国歼-10战机</a> [10] <font color='grey'>- 11时52分</font><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1961925515414828304" target="_blank" class="news-link">中国球员曾凡博被曝已被篮网裁掉，原因可能是什么？如何评价他在球队的表现？</a> [14] <font color='grey'>- 11时52分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%80%E5%A3%B0%E4%B8%9C%E6%96%B9%E5%B7%A8%E5%93%8D%E8%AE%A9%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%8C%BA%E7%9B%B4%E4%BA%86%E8%85%B0%E6%9D%86" target="_blank" class="news-link">一声东方巨响让中国人挺直了腰杆</a> [14] <font color='grey'>- 11时52分</font><br>[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%8B%B1%E5%9B%BD%E5%88%B6%E8%A3%8111%E5%AE%B6%E4%B8%AD%E5%9B%BD%E5%AE%9E%E4%BD%93%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26realpos%3D15%26pos%3D15%26filter_type%3Drealtimehot%26c_type%3D31%26dgr%3D0%26lcate%3D5001%26cate%3D5001%26band_rank%3D15%26flag%3D0%26q%3D%2523%25E8%258B%25B1%25E5%259B%25BD%25E5%2588%25B6%25E8%25A3%258111%25E5%25AE%25B6%25E4%25B8%25AD%25E5%259B%25BD%25E5%25AE%259E%25E4%25BD%2593%2523%26display_time%3D1760586535%26pre_seqid%3D17605865352050204991143" target="_blank" class="news-link">英国制裁11家中国实体</a> [15] <font color='grey'>- 11时52分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=61%E5%B9%B4%E5%89%8D+%E4%B8%AD%E5%9B%BD%E7%AC%AC%E4%B8%80%E9%A2%97%E5%8E%9F%E5%AD%90%E5%BC%B9%E7%88%86%E7%82%B8%E6%88%90%E5%8A%9F" target="_blank" class="news-link">61年前 中国第一颗原子弹爆炸成功</a> [15] <font color='grey'>- 11时52分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%A8%81%E8%83%81%E5%81%9C%E4%B9%B0%E7%9A%84%E4%B8%AD%E5%9B%BD%E6%B2%B9%E6%88%96%E4%B8%BA%E5%BA%9F%E5%BC%83%E9%A3%9F%E7%94%A8%E6%B2%B9" target="_blank" class="news-link">美威胁停买的中国油或为废弃食用油</a> [18] <font color='grey'>- 11时52分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E8%8B%B1%E5%9B%BD%E5%88%B6%E8%A3%8111%E5%AE%B6%E4%B8%AD%E5%9B%BD%E5%AE%9E%E4%BD%93" target="_blank" class="news-link">中方回应英国制裁11家中国实体</a> [20] <font color='grey'>- 11时52分</font><br>[虎扑] <a href="https://bbs.hupu.com/635162317.html" target="_blank" class="news-link">我真的很好奇国家为什么不封禁苹果 美国这么限制打压中国消费电子产品</a> [22] <font color='grey'>- 11时52分</font><br>[虎扑] <a href="https://bbs.hupu.com/635168188.html" target="_blank" class="news-link">&amp;quot;埃及有6000年文明，中国有5000年文明，中国出局了，埃及是第一。”＿特朗普</a> [23] <font color='grey'>- 11时52分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7561590883414507546/" target="_blank" class="news-link">中方坚决反对英方制裁11家中国实体</a> [25] <font color='grey'>- 11时52分</font><br>[掘金] <a href="https://juejin.cn/post/7560219375987884032" target="_blank" class="news-link">国产之光金仓数据库，真能平替MongoDB？实测来了！</a> [26] <font color='grey'>- 11时52分</font><br>[哔哩哔哩] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E4%B8%BA%E4%BD%95%E4%B8%8D%E5%86%8D%E8%BF%9B%E5%8F%A3%E7%BE%8E%E5%9B%BD%E5%A4%A7%E8%B1%86" target="_blank" class="news-link">中国为何不再进口美国大豆</a> [28] <font color='grey'>- 11时52分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">6</td>
+                <td class="percentage">1.2%</td>
+                <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7561545536600293395/" target="_blank" class="news-link">我国芯片研制获重大突破</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时52分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2170735" target="_blank" class="news-link">苹果公司正式推出M5芯片 首发3款新品</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时52分</font><br>[哔哩哔哩] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E5%A4%9A%E6%AC%BE%E6%90%AD%E8%BD%BDM5%E8%8A%AF%E7%89%87%E6%96%B0%E5%93%81" target="_blank" class="news-link">苹果发布多款搭载M5芯片新品</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时52分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E5%A4%9A%E6%AC%BE%E6%90%AD%E8%BD%BDM5%E8%8A%AF%E7%89%87%E6%96%B0%E5%93%81" target="_blank" class="news-link">苹果发布多款搭载M5芯片新品</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时52分</font><br>[抖音] <a href="https://www.douyin.com/hot/2271270" target="_blank" class="news-link">苹果发布多款搭载M5芯片新品</a> [14] <font color='grey'>- 11时52分</font><br>[掘金] <a href="https://juejin.cn/post/7560374742990733352" target="_blank" class="news-link">刚得诺奖的成果被做成芯片了</a> [20] <font color='grey'>- 11时52分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">手机</td>
+                <td class="count">5</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31784924" target="_blank" class="news-link">澎湃漫评｜带手机进校，就该砸掉吗</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时52分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7560732217845268526/" target="_blank" class="news-link">荣耀手机背面翻出一个机器人</a> [7] <font color='grey'>- 11时52分</font><br>[虫部落] <a href="https://www.chongbuluo.com/thread-23043-1-1.html" target="_blank" class="news-link">大家是在哪里购买手机？实体店还是京东、淘宝？</a> [11] <font color='grey'>- 11时52分</font><br>[虫部落] <a href="https://www.chongbuluo.com/thread-23135-1-1.html" target="_blank" class="news-link">请虫友推荐一款价格在 6500~9000 元的手机？</a> [14] <font color='grey'>- 11时52分</font><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31790861" target="_blank" class="news-link">新华每日电讯：eSIM来了！手机“无卡时代”已近</a> [20] <font color='grey'>- 11时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles">[Github] <a href="https://github.com/anthropics/prompt-eng-interactive-tutorial" target="_blank" class="news-link">anthropics / prompt-eng-interactive-tutorial</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时52分</font><br>[Hacker News] <a href="https://news.ycombinator.com/item?id=45595403" target="_blank" class="news-link">Claude Haiku 4.5</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时52分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2170822" target="_blank" class="news-link">特朗普已授权中情局在委内瑞拉开展行动 Anthropic发布Claude Haiku 4.5 | 环球市场</a> [8] <font color='grey'>- 11时52分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1165855" target="_blank" class="news-link">感谢 V 站厚爱，纯用 claude code 写的开源项目居然也能得到关注，介绍一下我的想法和实践过程</a> [25] <font color='grey'>- 11时52分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">美国</td>
+                <td class="count">4</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nUfvzJIjxX" target="_blank" class="news-link">汽车巨头将部分生产线从加拿大迁至美国，加省长矛头对准特朗普</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时52分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7561609261038439999/" target="_blank" class="news-link">稀土反制后美国对华可能打什么牌</a> [16] <font color='grey'>- 11时52分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E8%B1%86%E5%8D%96%E4%B8%8D%E5%87%BA%E5%8E%BB+%E5%86%9C%E5%9C%BA%E7%A0%B4%E4%BA%A7%E5%88%9B%E6%96%B0%E9%AB%98" target="_blank" class="news-link">美国大豆卖不出去 农场破产创新高</a> [24] <font color='grey'>- 11时52分</font><br>[虎扑] <a href="https://bbs.hupu.com/635155828.html" target="_blank" class="news-link">在科技实力上，我们正在逐渐赶超美国</a> [25] <font color='grey'>- 11时52分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles">[V2EX] <a href="https://www.v2ex.com/t/1166050" target="_blank" class="news-link">（附实测教程）谷歌商店下载 Tiktok（不拔卡）修改国家码后，完美运行！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时52分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1166041" target="_blank" class="news-link">Google 最新的视频生成模型 Veo3.1，比 Sora2 质量更好，最长可生成 1 分钟视频</a> [7] <font color='grey'>- 11时52分</font><br>[掘金] <a href="https://juejin.cn/post/7560312747679678474" target="_blank" class="news-link">谷歌Gemini 3.0「全家桶」年度压轴，前端不再需要人类！下周王者降临</a> [18] <font color='grey'>- 11时52分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">2</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/635197420.html" target="_blank" class="news-link">1016早报｜京东造车招人年薪百万;ChatGPT将提供成人内容</a> [14] <font color='grey'>- 11时52分</font></div><br>[少数派] <a href="https://sspai.com/post/102377" target="_blank" class="news-link">AI 学习模式：让 ChatGPT 当导师，究竟是「邪修」破局还是暗藏陷阱？</a> [30] <font color='grey'>- 11时52分</font></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757209" target="_blank" class="news-link">AH股反弹！沪指重回3900点，科技股午后发力，恒科指涨超2%，科网股普涨，沪金、银涨超2%，国债下跌</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时52分</font><br>[虎扑] <a href="https://bbs.hupu.com/635160732.html" target="_blank" class="news-link">人类的科技和工业，即将迎来大结局了</a> [9] <font color='grey'>- 11时52分</font></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.2%</td>
+                <td class="titles">[V2EX] <a href="https://www.v2ex.com/t/1165887" target="_blank" class="news-link">现在有什么有潜力的公司值得加入，有机会成为下一个 coinbase 或者 deepseek 的</a> [23] <font color='grey'>- 11时52分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 8 条)</h3>
+        <h4>知乎 (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1961925515414828304" target="_blank" class="news-link">中国球员曾凡博被曝已被篮网裁掉，原因可能是什么？如何评价他在球队的表现？</a> [14]</li></ul><h4>虎扑 (1 条)</h4><ul><li><a href="https://bbs.hupu.com/635197420.html" target="_blank" class="news-link">1016早报｜京东造车招人年薪百万;ChatGPT将提供成人内容</a> [14]</li></ul><h4>Hacker News (2 条)</h4><ul><li><a href="https://news.ycombinator.com/item?id=45600581" target="_blank" class="news-link">New Alzheimer&#x27;s Treatment Clears Plaques from Brains of Mice Within Hours</a> [23]</li><li><a href="https://news.ycombinator.com/item?id=45600263" target="_blank" class="news-link">Who&#x27;s Submitting AI-Tainted Filings in Court?</a> [25]</li></ul><h4>哔哩哔哩 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E4%BC%9A%E9%A9%B1%E9%80%90%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E5%90%97" target="_blank" class="news-link">美国会驱逐中国留学生吗</a> <font color='red'><strong>[2]</strong></font></li></ul><h4>澎湃新闻 (2 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31790934" target="_blank" class="news-link">央视主持人李梓萌遭AI仿冒带货！北京查处首例AI虚假广告案</a> [16]</li><li><a href="https://m.thepaper.cn/newsDetail_forward_31790861" target="_blank" class="news-link">新华每日电讯：eSIM来了！手机“无卡时代”已近</a> [20]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8nUfvzJIjxX" target="_blank" class="news-link">汽车巨头将部分生产线从加拿大迁至美国，加省长矛头对准特朗普</a> <font color='red'><strong>[5]</strong></font></li></ul></div>
+    </body>
+    </html>
+    

@@ -1,0 +1,137 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 502</p><p>生成时间: 2025-10-25 01:22:17</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>linuxdo</li><li>ghxi</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">18</td>
+                <td class="percentage">3.59%</td>
+                <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7564601773210697769/" target="_blank" class="news-link">中方：希望德方严格恪守一个中国原则</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时22分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757789" target="_blank" class="news-link">中共中央权威解读四中全会：未来10年将再造一个中国高技术产业，综合整治“内卷式”竞争</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时22分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E2%80%9D%E6%8D%95%E8%8E%B7%E6%9D%A5%E8%87%AA%E6%98%9F%E6%98%9F%E7%A5%9E%E7%A7%98%E8%AE%AF%E6%81%AF" target="_blank" class="news-link">“中国天眼”捕获来自星星神秘讯息</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时22分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7564405247674974271/" target="_blank" class="news-link">未来五年 中国经济里蕴藏这些新机遇</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时22分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9C%AA%E6%9D%A5%E4%BA%94%E5%B9%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%A6%82%E4%BD%95%E8%B5%B0" target="_blank" class="news-link">未来五年中国经济如何走</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时22分</font><br>[虎扑] <a href="https://bbs.hupu.com/635321935.html" target="_blank" class="news-link">全中国没人敢给小孩取这个名字，因为扛不起！</a> [7] <font color='grey'>- 01时22分</font><br>[哔哩哔哩] <a href="https://search.bilibili.com/all?keyword=T1%E4%B8%AD%E5%9B%BD%E7%94%9F%E5%AD%98%E8%AE%B0" target="_blank" class="news-link">T1中国生存记</a> [7] <font color='grey'>- 01时22分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7564610674433838628/" target="_blank" class="news-link">岛内谈台湾光复：所有中国人都应庆祝</a> [7] <font color='grey'>- 01时22分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8niMJjREUbu" target="_blank" class="news-link">高市早苗首次发表施政演说：中国是重要邻国</a> [9] <font color='grey'>- 01时22分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%A5%9E%E7%A7%98%E6%B5%B7%E5%9F%9F4%E4%BC%A0%E5%A5%87%E4%B8%AD%E5%9B%BD%E7%8E%A9%E5%AE%B6%E6%99%93%E8%99%8E" target="_blank" class="news-link">神秘海域4传奇中国玩家晓虎</a> [10] <font color='grey'>- 01时22分</font><br>[知乎] <a href="https://www.zhihu.com/question/1965005439692435694" target="_blank" class="news-link">「十五五」规划建议提出前瞻布局未来产业，未来 10 年将再造一个中国高技术产业，将带来哪些变革和机遇？</a> [11] <font color='grey'>- 01时22分</font><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/569840484" target="_blank" class="news-link">在现如今中国的计算机专业大环境中，适不适合做计算机体系结构、操作系统这些底层方向？</a> [17] <font color='grey'>- 01时22分</font></div><br>[知乎] <a href="https://www.zhihu.com/question/27285308" target="_blank" class="news-link">中国规范的混凝土设计规范公式是否过于保守？</a> [18] <font color='grey'>- 01时22分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=T1%E4%B8%AD%E5%9B%BD%E7%94%9F%E5%AD%98%E8%AE%B0" target="_blank" class="news-link">T1中国生存记</a> [18] <font color='grey'>- 01时22分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7564708282242174483/" target="_blank" class="news-link">加拿大为何突然想跟中国建战略关系</a> [18] <font color='grey'>- 01时22分</font><br>[哔哩哔哩] <a href="https://search.bilibili.com/all?keyword=%E7%A5%9E%E7%A7%98%E6%B5%B7%E5%9F%9F4%E4%BC%A0%E5%A5%87%E4%B8%AD%E5%9B%BD%E7%8E%A9%E5%AE%B6%E6%99%93%E8%99%8E" target="_blank" class="news-link">神秘海域4传奇中国玩家晓虎</a> [20] <font color='grey'>- 01时22分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%B8%AD%E7%A7%91%E5%A4%AB%E7%BC%98%E4%BD%95%E6%88%90%E4%B8%BA%E5%9B%BD%E4%BA%A7%E6%B8%B8%E6%88%8F%E9%BB%91%E9%A9%AC" target="_blank" class="news-link">鸭科夫缘何成为国产游戏黑马</a> [22] <font color='grey'>- 01时22分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%89%E4%B8%96%E4%B8%AD%E5%9B%BD%E7%A7%B0%E5%BC%A0%E7%A7%8B%E6%98%8E%E8%81%8C%E5%8A%A1%E8%BA%AB%E4%BB%BD%E4%B8%8D%E5%8F%98" target="_blank" class="news-link">安世中国称张秋明职务身份不变</a> [29] <font color='grey'>- 01时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">3.19%</td>
+                <td class="titles">[少数派] <a href="https://sspai.com/post/103079" target="_blank" class="news-link">社区速递 113 | 派友热议 AI 浏览器、作者的新玩意和一周热评</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时22分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757782" target="_blank" class="news-link">“AI液冷龙头”Vertiv财报全面超预期，摩根大通：尽管涨幅巨大，但数据中心需求已从“光速”向“荒谬”加速，估值仍然合理</a> [8] <font color='grey'>- 01时22分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1168217" target="_blank" class="news-link">App 开发旅程之一: 照片卡通美化工具 CatosAI</a> [10] <font color='grey'>- 01时22分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757786" target="_blank" class="news-link">沪指创逾十年新高，创业板涨超3%，AI硬件股爆发，寒武纪再登A股“股王”宝座，恒科指涨近2%</a> [10] <font color='grey'>- 01时22分</font><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45602996" target="_blank" class="news-link">Where&#x27;s the AI design Renaissance?</a> [12] <font color='grey'>- 01时22分</font></div><br>[掘金] <a href="https://juejin.cn/post/7563547711006408738" target="_blank" class="news-link">面试官：说说async/await？我差点翻车！原来还可以这么用</a> [12] <font color='grey'>- 01时22分</font><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45695956" target="_blank" class="news-link">The Mainframe Six (2022)</a> [13] <font color='grey'>- 01时22分</font></div><br>[掘金] <a href="https://juejin.cn/post/7563586464735936546" target="_blank" class="news-link">“从从容容 游刃有余”🤖浏览器内置AI实现国际化翻译</a> [14] <font color='grey'>- 01时22分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1168181" target="_blank" class="news-link">Eye Shape Detector — AI 眼型识别 网站</a> [16] <font color='grey'>- 01时22分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1168122" target="_blank" class="news-link">大家都是怎么管理 AI 生成代码的版本的？</a> [17] <font color='grey'>- 01时22分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1168165" target="_blank" class="news-link">web 菜鸟级选手，吭哧吭哧做了 1 个简单的 ai 工具网站</a> [21] <font color='grey'>- 01时22分</font><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45691127" target="_blank" class="news-link">Alaska Airlines&#x27; statement on IT outage</a> [25] <font color='grey'>- 01时22分</font></div><br>[V2EX] <a href="https://www.v2ex.com/t/1168026" target="_blank" class="news-link">我说 cursor+Spec-Kit 辅助开发，断档领先其他 AI 工具，没意见吧</a> [27] <font color='grey'>- 01时22分</font><br>[少数派] <a href="https://sspai.com/post/102744" target="_blank" class="news-link">Apple AirPods Pro 3 降噪真无线耳机体验 - TDS REVIEW</a> [27] <font color='grey'>- 01时22分</font><br>[哔哩哔哩] <a href="https://search.bilibili.com/all?keyword=AI%E7%BB%AD%E5%86%99%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97" target="_blank" class="news-link">AI续写你的名字</a> [28] <font color='grey'>- 01时22分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1168093" target="_blank" class="news-link">一个纯粹技术人编写的 AI 手机输入法（Powered by rime）</a> [30] <font color='grey'>- 01时22分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国</td>
+                <td class="count">7</td>
+                <td class="percentage">1.39%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8niUg9ISl7C" target="_blank" class="news-link">美国常驻联合国代表：哈马斯在加沙已经完蛋了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时22分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757856" target="_blank" class="news-link">美国9月核心CPI环比增长0.2%，为三个月来最慢增速，美联储年内再次降息预期升温</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时22分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8niaxqtrkUT" target="_blank" class="news-link">这则广告，让美国总统生气了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时22分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757804" target="_blank" class="news-link">姗姗来迟的美国CPI：可能不及预期，但市场已经不关心</a> [6] <font color='grey'>- 01时22分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757776" target="_blank" class="news-link">特朗普赦免赵长鹏，币安或重返美国，改变美国数字币市场格局</a> [7] <font color='grey'>- 01时22分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2180232" target="_blank" class="news-link">美国9月通胀数据全线低于预期 增强美联储降息前景</a> [8] <font color='grey'>- 01时22分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31831105" target="_blank" class="news-link">欧盟也对俄罗斯能源下手：首次制裁天然气，欲让美国填空白</a> [13] <font color='grey'>- 01时22分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">手机</td>
+                <td class="count">4</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles">[虫部落] <a href="https://www.chongbuluo.com/thread-23043-1-1.html" target="_blank" class="news-link">大家是在哪里购买手机？实体店还是京东、淘宝？</a> [15] <font color='grey'>- 01时22分</font><br>[虫部落] <a href="https://www.chongbuluo.com/thread-23135-1-1.html" target="_blank" class="news-link">请虫友推荐一款价格在 6500~9000 元的手机？</a> [17] <font color='grey'>- 01时22分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%95%99%E8%82%B2%E9%83%A8%EF%BC%9A%E4%B8%A5%E7%A6%81%E5%B0%86%E6%89%8B%E6%9C%BA%E5%B8%A6%E5%85%A5%E8%AF%BE%E5%A0%82" target="_blank" class="news-link">教育部：严禁将手机带入课堂</a> [18] <font color='grey'>- 01时22分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7563667113559343158/" target="_blank" class="news-link">官方：严禁将手机等电子产品带入课堂</a> [24] <font color='grey'>- 01时22分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles">[Hacker News] <a href="https://news.ycombinator.com/item?id=45692984" target="_blank" class="news-link">Twake Drive – An open-source alternative to Google Drive</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时22分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1168235" target="_blank" class="news-link">如何解决获取 Googleplay 内购商品报错的问题</a> [6] <font color='grey'>- 01时22分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.2%</td>
+                <td class="titles">[掘金] <a href="https://juejin.cn/post/7563860666349862962" target="_blank" class="news-link">OCR的新高度？PaddleOCR-VL 与 DeepSeek-OCR 的技术与应用横评</a> [9] <font color='grey'>- 01时22分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">0.2%</td>
+                <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B1%BD%E8%BD%A6%E5%B7%A8%E5%A4%B4%E6%8B%89%E5%93%8D%E5%81%9C%E4%BA%A7%E8%AD%A6%E6%8A%A5%EF%BC%9A%E8%8A%AF%E7%89%87%E5%91%8A%E6%80%A5" target="_blank" class="news-link">汽车巨头拉响停产警报：芯片告急</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时22分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 5 条)</h3>
+        <h4>知乎 (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/569840484" target="_blank" class="news-link">在现如今中国的计算机专业大环境中，适不适合做计算机体系结构、操作系统这些底层方向？</a> [17]</li></ul><h4>Hacker News (3 条)</h4><ul><li><a href="https://news.ycombinator.com/item?id=45602996" target="_blank" class="news-link">Where&#x27;s the AI design Renaissance?</a> [12]</li><li><a href="https://news.ycombinator.com/item?id=45695956" target="_blank" class="news-link">The Mainframe Six (2022)</a> [13]</li><li><a href="https://news.ycombinator.com/item?id=45691127" target="_blank" class="news-link">Alaska Airlines&#x27; statement on IT outage</a> [25]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E5%AE%89%E4%B8%96%E4%B8%AD%E5%9B%BD%E7%A7%B0%E5%BC%A0%E7%A7%8B%E6%98%8E%E8%81%8C%E5%8A%A1%E8%BA%AB%E4%BB%BD%E4%B8%8D%E5%8F%98" target="_blank" class="news-link">安世中国称张秋明职务身份不变</a> [29]</li></ul></div>
+    </body>
+    </html>
+    

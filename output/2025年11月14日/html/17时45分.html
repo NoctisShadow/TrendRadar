@@ -1,0 +1,150 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 523</p><p>生成时间: 2025-11-14 17:45:40</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>linuxdo</li><li>ghxi</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">3.63%</td>
+                <td class="titles">[掘金] <a href="https://juejin.cn/post/7570260758061891619" target="_blank" class="news-link">Cursor Agents + Holopix AI | 轻松实现 &quot;🐦坤坤&quot; 自走棋小游戏</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时45分</font><br>[Hacker News] <a href="https://news.ycombinator.com/item?id=45924872" target="_blank" class="news-link">Show HN: Pegma, the free and open-source version of the classic Peg solitaire</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时45分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759330" target="_blank" class="news-link">腾讯电话会：2025年全年实际资本支出将低于指引，GPU储备足够内部使用，微信最终将推出一个AI智能体</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时45分</font><br>[Hacker News] <a href="https://news.ycombinator.com/item?id=45917875" target="_blank" class="news-link">Nano Banana can be prompt engineered for nuanced AI image generation</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时45分</font><br>[掘金] <a href="https://juejin.cn/post/7570630923710054452" target="_blank" class="news-link">我用AI重构了一段500行的屎山代码，这是我的Prompt和思考过程</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时45分</font><br>[Hacker News] <a href="https://news.ycombinator.com/item?id=45918638" target="_blank" class="news-link">Disrupting the first reported AI-orchestrated cyber espionage campaign</a> [7] <font color='grey'>- 17时45分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759306" target="_blank" class="news-link">腾讯Q3净利润同比增长19%，AI云推动企业服务收入双位数增长，加大元宝推广投入 | 财报见闻</a> [7] <font color='grey'>- 17时45分</font><br>[少数派] <a href="https://sspai.com/post/103187" target="_blank" class="news-link">一半文书交给 AI 后，我重新理解了「法律工具」</a> [9] <font color='grey'>- 17时45分</font><br>[Github] <a href="https://github.com/GibsonAI/Memori" target="_blank" class="news-link">GibsonAI / Memori</a> [10] <font color='grey'>- 17时45分</font><br>[Github] <a href="https://github.com/microsoft/call-center-ai" target="_blank" class="news-link">microsoft / call-center-ai</a> [12] <font color='grey'>- 17时45分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2200800" target="_blank" class="news-link">AI泡沫警告声四起！继华尔街之后，相关企业高管们也承认了……</a> [12] <font color='grey'>- 17时45分</font><br>[少数派] <a href="https://sspai.com/post/103079" target="_blank" class="news-link">社区速递 113 | 派友热议 AI 浏览器、作者的新玩意和一周热评</a> [13] <font color='grey'>- 17时45分</font><br>[掘金] <a href="https://juejin.cn/post/7570271574348496905" target="_blank" class="news-link">历经4个月，基于 Tiptap 和 NestJs 打造一款 AI 驱动的智能文档协作平台 🚀🚀🚀</a> [15] <font color='grey'>- 17时45分</font><br>[哔哩哔哩] <a href="https://search.bilibili.com/all?keyword=AI%E9%80%A0%E4%B8%96%E7%95%8C%E7%9A%84%E6%97%B6%E4%BB%A3%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">AI造世界的时代来了</a> [18] <font color='grey'>- 17时45分</font><br>[Hacker News] <a href="https://news.ycombinator.com/item?id=45919067" target="_blank" class="news-link">SlopStop: Community-driven AI slop detection in Kagi Search</a> [20] <font color='grey'>- 17时45分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1172772" target="_blank" class="news-link">独立开发， AI 编程处女作，效果很惊艳，效率提升明显</a> [21] <font color='grey'>- 17时45分</font><br>[掘金] <a href="https://juejin.cn/post/7571972751528149028" target="_blank" class="news-link">使用TRAE SOLO：搭建前端AI组件库-实践指南</a> [23] <font color='grey'>- 17时45分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E4%BC%99%E9%AB%98%E9%93%81%E4%B8%8A%E7%94%A8AI%E7%9C%BC%E9%95%9C%E7%8E%A9%E6%B8%B8%E6%88%8F" target="_blank" class="news-link">小伙高铁上用AI眼镜玩游戏</a> [24] <font color='grey'>- 17时45分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E9%80%A0%E4%B8%96%E7%95%8C%E7%9A%84%E6%97%B6%E4%BB%A3%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">AI造世界的时代来了</a> [25] <font color='grey'>- 17时45分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">12</td>
+                <td class="percentage">2.29%</td>
+                <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7572448457768570378/" target="_blank" class="news-link">中国向高市早苗发出迄今最严厉警告</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时45分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8oGgE1EgUMT" target="_blank" class="news-link">靠近中国边境，印度启用新空军基地(图)</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时45分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759308" target="_blank" class="news-link">中国10月新增社融8100亿元，新增人民币贷款2200亿元，M2-M1剪刀差扩大</a> [6] <font color='grey'>- 17时45分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347117&amp;amp;topic_name=%E7%A5%9E20%E4%B9%98%E7%BB%84%E5%B7%B2%E7%9D%80%E9%99%86%2C%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E9%81%A5%E9%81%A5%E9%A2%86%E5%85%88" target="_blank" class="news-link">神20乘组已着陆,中国航天遥遥领先</a> [10] <font color='grey'>- 17时45分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%A4%A7%E5%9F%8E%E5%B8%82%E7%BE%A4%E6%AD%A3%E5%9C%A8%E6%8B%BC%E5%91%BD%E5%BB%BA%E6%9C%BA%E5%9C%BA" target="_blank" class="news-link">中国最大城市群正在拼命建机场</a> [10] <font color='grey'>- 17时45分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%E5%9C%A8%E5%B7%B4%E5%8E%98%E5%B2%9B%E5%87%BA%E8%BD%A6%E7%A5%B8%E8%87%B45%E6%AD%BB8%E4%BC%A4" target="_blank" class="news-link">中国游客在巴厘岛出车祸致5死8伤</a> [12] <font color='grey'>- 17时45分</font><br>[虎扑] <a href="https://bbs.hupu.com/635698399.html" target="_blank" class="news-link">中国各区域男性长相特征，东北男人被黑的最惨的一次？</a> [13] <font color='grey'>- 17时45分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7572416860138769983/" target="_blank" class="news-link">泰国国王为何此刻急访中国</a> [13] <font color='grey'>- 17时45分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=1444.49%E5%90%A8%EF%BC%81%E4%B8%AD%E5%9B%BD%E6%8E%A2%E6%98%8E%E9%A6%96%E4%B8%AA%E5%8D%83%E5%90%A8%E7%BA%A7%E9%87%91%E7%9F%BF" target="_blank" class="news-link">1444.49吨！中国探明首个千吨级金矿</a> [13] <font color='grey'>- 17时45分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7571696540570648612/" target="_blank" class="news-link">中国军号用日语发文警告日本</a> [18] <font color='grey'>- 17时45分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347062&amp;amp;topic_name=%E6%97%A5%E9%9F%A9%E6%97%A5%E5%B8%B8%E6%80%AA%E4%B8%AD%E5%9B%BD%2C%E7%BD%91%E5%8F%8B%E8%B0%83%E4%BE%83%E8%80%81%E4%B8%AD%E5%BE%88%E5%BF%99" target="_blank" class="news-link">日韩日常怪中国,网友调侃老中很忙</a> [20] <font color='grey'>- 17时45分</font><br>[抖音] <a href="https://www.douyin.com/hot/2305951" target="_blank" class="news-link">中国游客印尼车祸5人遇难</a> [20] <font color='grey'>- 17时45分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国</td>
+                <td class="count">7</td>
+                <td class="percentage">1.34%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2200844" target="_blank" class="news-link">美国务院批准特朗普二任首笔对台军售，外交部回应</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时45分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8oHCvkQXwvo" target="_blank" class="news-link">美国务院批准特朗普二任首笔对台军售，外交部回应</a> [6] <font color='grey'>- 17时45分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8oGO93eguiz" target="_blank" class="news-link">南非总统：缺席G20峰会是美国“自己的损失”</a> [8] <font color='grey'>- 17时45分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759350" target="_blank" class="news-link">科技股、数字币被抛售，美国市场继续本月开启的“避险模式”</a> [9] <font color='grey'>- 17时45分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8oGlf1UZxyD" target="_blank" class="news-link">美国被曝要求台投资3500亿至5500亿美元，台湾各界震惊</a> [9] <font color='grey'>- 17时45分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7572369099129503780/" target="_blank" class="news-link">美国对乌“断供”会带来什么影响</a> [16] <font color='grey'>- 17时45分</font><br>[知乎] <a href="https://www.zhihu.com/question/1972605869679142760" target="_blank" class="news-link">福特 CEO 称年薪 12 万美元仍招不到人，如何看待美国技能工人严重短缺的现状？</a> [17] <font color='grey'>- 17时45分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">手机</td>
+                <td class="count">4</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles">[V2EX] <a href="https://www.v2ex.com/t/1172841" target="_blank" class="news-link">国内不允许使用的 APP，在各种手机应用中心为啥这么多？下载量也很多，这些能上架？没人查吗</a> [7] <font color='grey'>- 17时45分</font><br>[虫部落] <a href="https://www.chongbuluo.com/thread-23043-1-1.html" target="_blank" class="news-link">大家是在哪里购买手机？实体店还是京东、淘宝？</a> [25] <font color='grey'>- 17时45分</font><br>[虫部落] <a href="https://www.chongbuluo.com/thread-23135-1-1.html" target="_blank" class="news-link">请虫友推荐一款价格在 6500~9000 元的手机？</a> [27] <font color='grey'>- 17时45分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7571814054948356137/" target="_blank" class="news-link">俩小伙假装买手机上演“调虎离山”</a> [29] <font color='grey'>- 17时45分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles">[Github] <a href="https://github.com/google/adk-go" target="_blank" class="news-link">google / adk-go</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时45分</font><br>[掘金] <a href="https://juejin.cn/post/7570260758061170723" target="_blank" class="news-link">Android Studio + Gemini：重塑安卓 AI 开发新范式</a> [6] <font color='grey'>- 17时45分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1172774" target="_blank" class="news-link">Google 关于 Agent 的核心观点</a> [20] <font color='grey'>- 17时45分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles">[V2EX] <a href="https://www.v2ex.com/t/1172803" target="_blank" class="news-link">[网站自荐] 一个收集查找 claude skill 的站 skillsmp.com</a> [14] <font color='grey'>- 17时45分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1172792" target="_blank" class="news-link">Mac 用户的 Claude Code 模型切换脚本来了</a> [17] <font color='grey'>- 17时45分</font><br>[V2EX] <a href="https://www.v2ex.com/t/1172780" target="_blank" class="news-link">来兑现 Claude 月卡承诺 继续送新和抽</a> [19] <font color='grey'>- 17时45分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.19%</td>
+                <td class="titles">[Product Hunt] <a href="https://www.producthunt.com/products/openai/launches/chatgpt-atlas?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ChatGPT Atlas</a> [9] <font color='grey'>- 17时45分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">0.19%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2200927" target="_blank" class="news-link">【每日收评】沪指跌近1%失守4000点，存储芯片板块遭遇重挫，福建、海南本地股逆势活跃</a> [9] <font color='grey'>- 17时45分</font></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.19%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2200525" target="_blank" class="news-link">英伟达季报下周揭晓！顶级科技投资人唱多：至少再繁荣两年</a> [10] <font color='grey'>- 17时45分</font></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
